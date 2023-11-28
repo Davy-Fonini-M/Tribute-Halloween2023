@@ -1,0 +1,125 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ececec;
+    background-image: url(/Projeto/img/d9629371467dad8291e4ca96f4056afdca2b84a5.gif);
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    max-width: 1100px;
+    background-color: rgb(209, 177, 240);
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+
+.container img{
+    height: 400px;
+}
+
+.main-title{
+    color: rgb(176, 1, 192);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.header{
+    text-align: center;
+}
+
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.biography-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed rgb(15, 180, 15);
+    border-bottom: 1px dashed (15, 180, 15);
+}
+
+.quotes-container{
+    background-color: rgb(204, 113, 48);
+    padding: 30px;
+    text-align: center;
+}
+
+.quotes-container img{
+    height: 300px;
+    width: 600px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed rgb(15, 180, 15);
+    border-bottom: 1px dashed rgb(15, 180, 15);
+}
+
+.curiosities-container li{
+    height: 30px;
+}
+
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #060027;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.fixed a{
+    text-decoration: none;
+    color: rgb(110, 214, 5);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    text-align: center;
+    align-items: center;
+  }
+  
+  nav ul li a:hover {
+    color: #ff9100; /* cor de destaque ao passar o mouse */
+    text-decoration: underline;
+  }
